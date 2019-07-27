@@ -1,4 +1,13 @@
-body{
+.welcome{
+  background-image: url("images/pizza1.jpg");
+  color: white;
+}
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.exit{
   background-image: url("images/pizza3.jpg");
-
 }
