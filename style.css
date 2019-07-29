@@ -1,19 +1,20 @@
-.welcome{
+.welcome {
   background-image: url("images/veggy2.jpg");
   color: white;
 }
-.get{
+
+.get {
   margin-top: 200px;
 }
-body{
+
+body {
   overflow-x: hidden;
 }
-h1{
+
+h1 {
   text-align: center;
 }
-h3{
-  text-align: center;
-}
+
 /* Reset Select */
 select {
   -webkit-appearance: none;
@@ -26,10 +27,12 @@ select {
   background: #2c3e50;
   background-image: none;
 }
+
 /* Remove IE arrow */
 select::-ms-expand {
   display: none;
 }
+
 /* Custom Select */
 .select {
   position: relative;
@@ -41,12 +44,14 @@ select::-ms-expand {
   overflow: hidden;
   border-radius: .25em;
 }
+
 select {
   flex: 1;
   padding: 0 .5em;
   color: #fff;
   cursor: pointer;
 }
+
 /* Arrow */
 .select::after {
   content: '\25BC';
@@ -61,10 +66,16 @@ select {
   -o-transition: .25s all ease;
   transition: .25s all ease;
 }
+
 /* Transition */
 .select:hover::after {
   color: #f39c12;
 }
-.placing{
+
+.placing {
   display: flex;
+}
+
+.hide {
+  display: none;
 }
