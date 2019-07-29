@@ -1,6 +1,12 @@
 .welcome{
-  background-image: url("images/pizza1.jpg");
+  background-image: url("images/veggy2.jpg");
   color: white;
+}
+.get{
+  margin-top: 200px;
+}
+body{
+  overflow-x: hidden;
 }
 h1{
   text-align: center;

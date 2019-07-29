@@ -11,13 +11,16 @@
   <div class="welcome">
     <br>
     <br>
+    <div class="get">
     <em>
       <h1>PIZZERIA-DER-PLACE</h1>
     </em>
-    <h3>Take life like pizza,one slice at a time.</h3 <em><strong>
+    <h3>Take life like pizza,one slice at a time.</h3>
+    <strong>
       <p>Welcome to pizzeria where we eat so much pizza slice by slice. You will experience great value of every coin spent<br>Come back for more its finger licking good.</p>
-    </strong></em>
+    </strong>
   </div>
+</div>
   <div class="types">
     <div class="row">
       <div class="col-md-2"></div>
@@ -32,6 +35,7 @@
       </div>
     </div>
   </div>
+  <br>
   <div class="exit">
     <h1>ORDER ONLINE</h1>
 
@@ -42,10 +46,10 @@
         <div class="select">
           <select name="slct" id="slct">
             <option selected disabled>Choose an option</option>
-            <option value="8">Hawian</option>
-            <option value="12">peperoni</option>
-            <option value="14">BBQ</option>
-            <option value="16">Chicken</option>
+            <option >Hawian</option>
+            <option>peperoni</option>
+            <option>BBQ</option>
+            <option>Chicken</option>
           </select>
         </div>
 
@@ -98,18 +102,25 @@
 
         </div>
       </div>
-
-      <em><strong>
-          <h4>Would You Like A Delivery?</h4>
-          <div class="form-check mb-3">
-            <input class="form-check-input" type="radio" id="radio1" name="cmethod" value="yes" checked>
-            <label class="form-check-label" for="radio1">YES</label>
-          </div>
-
-          <div class="form-check mb-3">
-            <input class="form-check-input" type="radio" id="radio2" name="cmethod" value="no">
-            <label class="form-check-label" for="radio2">NO</label>
-          </div>
+      <div class="text-center mt-5">
+        <button class="btn-info" type="submit">ORDER</button>
+      </div>
+      <table class="table mt-5 overlay">
+        <thead>
+          <tr>
+            <th scope="col">Type</th>
+            <th scope="col">Size</th>
+            <th scope="col">Crust</th>
+            <th scope="col">Toppings</th>
+          </tr>
+        </thead>
+      </table>
+        <div class="text-center mt-5">
+          <button class="btn-info another" type="submit">ANOTHER ORDER</button>
+        </div>
+        <div class="text-center mt-4">
+          <button class="btn-info checkout" type="submit">CHECKOUT</button>
+        </div>
     </div>
 </body>
 
