@@ -8,7 +8,7 @@ this is a website created to enable one order pizza online and have it delivered
 
 
 ## Screenshot
-<img src="https://github.com/Naomi-sigu/pizza/blob/master/images/pizzashoot.jpg" width="1000">
+<img src="https://github.com/Naomi-sigu/pizza/blob/master/images/pizzashoot.png" width="1000">
 
 
 ## Setup/Installation Requirements
