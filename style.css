@@ -75,7 +75,5 @@ select {
 .placing {
   display: flex;
 }
-
-.hide {
-  display: none;
-}
+.exit{
+  background-image: url("images/veggy.jpg");

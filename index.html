@@ -30,11 +30,11 @@
       <div class="col-md-3">
 
         <h2>Type</h2>
-        <div class="select">
+        <div class="select type">
           <select name="slct" id="slct">
             <option selected disabled>Choose an option</option>
             <option>Hawian</option>
-            <option>peperondoi</option>
+            <option>peperoni</option>
             <option>BBQ</option>
             <option>Chicken</option>
           </select>
@@ -102,20 +102,30 @@
             <th scope="col">Size</th>
             <th scope="col">Crust</th>
             <th scope="col">Toppings</th>
+            <th scope="col">Total</th>
           </tr>
         </thead>
+        <tbody id="pizza">
+            <tr>
+              <td id="type"></td>
+              <td id="size"></td>
+              <td id="toppings"></td>
+              <td id="crust"></td>
+              <td id="total"></td>
+            </tr>
+          </tbody>
       </table>
-      <div class="text-center mt-5">
-        <button class="btn btn-info another order" type="submit">ANOTHER ORDER</button>
+      <div class="text-center mt-4">
+        <button class="btn-info checkout" type="submit">CHECKOUT</button>
       </div>
       <div class="additional-info">
-        <h3>The total is: <span></span></h3>
-        <h5>Would you like delivery for an additional <em>250</em>?</h5>
+        <h3 id="grand">The total is <span></span></h3>
+        <h5 id="deliveryText">Would you like delivery for an additional <em>250</em>?</h5>
         <h4 id="no">Your order will be ready after 10 minutes and you can pick it</h4>
-        <h4 id="yes">Your order has been received! Our rider is on his way,enjoy your meal!<span></span></h4>
+        <h4 id="yes">Your order has been received! Our rider is on his way to <span></span>,enjoy your meal!</h4>
       </div>
-      <div class="location text-center">
-        <input type="text" size="30" placeholder="Enter the delivery address" />
+      <div class="location text-center"  id="delivery">
+        <input type="text" size="30" placeholder="Enter the delivery address"/>
         <button class="btn btn-info complete" type="submit">Complete</button>
       </div>
       <br>
@@ -123,9 +133,7 @@
         <button class="btn btn-info yes" type="submit">Yes</button>
         <button class="btn btn-info no" type="submit">No</button>
       </div>
-      <div class="text-center mt-4">
-        <button class="btn-info checkout" type="submit">CHECKOUT</button>
-      </div>
+
     </div>
   </div>
   <script type="text/javascript" src="js/jquery.js"></script>
